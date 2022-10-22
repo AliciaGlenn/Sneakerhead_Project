@@ -33,7 +33,7 @@ Overview of how I approached building this application.
 
 ###Wireframe
 
-[Wireframe](/Users/aliciaglenn1/Desktop/GA_Lessons/Project_1/images/Sneakerhead Project.jpg)
+![Wireframe](https://i.imgur.com/pJxDGwS.jpg)
 
 ### Link to Project
 
