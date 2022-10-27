@@ -1,6 +1,7 @@
-.parent {
+.container {
     display: grid;
     grid-template: auto 1fr auto / auto 1fr auto;
+    height: 100vh;
   }
   
 
@@ -9,22 +10,24 @@ header {
     padding: 2rem;
     grid-column: 1/4;
     background-color: blue;
-    color: white;
 }
 
-.left-side {
+.one {
     grid-column: 1 / 2;
+    background-color:green;
   }
   
-  main {
+  .two {
     grid-column: 2 / 3;
+    background-color: blueviolet;
   }
   
-  .right-side {
+  .three {
     grid-column: 3 / 4;
+    background-color: beige;
   }
   
-  footer {
+  .footer {
     grid-column: 1 / 4;
     background-color: burlywood;
     
