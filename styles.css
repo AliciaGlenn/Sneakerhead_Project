@@ -92,6 +92,7 @@ input[type=submit] {
   transition-duration: 0.4s;
   cursor: pointer;
   font-family: 'Times New Roman', Times, serif;
+  width: 15rem;
 
 }
 
@@ -105,7 +106,12 @@ input[type=number] {
   margin: 4px 2px;
   border-radius: 10px;
   transition-duration: 0.4s;
+  width: 20rem;
 
+}
+
+main {
+  text-align: center;
 }
 
 /*  how to get footer to the bottom of the page
