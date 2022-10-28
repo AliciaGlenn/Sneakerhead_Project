@@ -2,7 +2,7 @@
 const promise = $.ajax({
   //  url:'https://the-sneaker-database.p.rapidapi.com/sneakers'
   // method: 'GET',
-  url: "https://the-sneaker-database.p.rapidapi.com/sneakers?limit=20",
+  url: "https://the-sneaker-database.p.rapidapi.com/sneakers?limit=${numInput}",
   // params: {limit: 20},
   headers: {
     "X-RapidAPI-Key": "8e228d85bemsh56c6591ce73d9c1p18f21cjsn854021b29e31",
@@ -35,7 +35,19 @@ const hello = () => {
 
       data.results.forEach((sneaker) => {
         const $h1 = $(`<h1>${sneaker.name}</h1>`);
-        $("body").append($h1);
+        const $img = $(
+          `<img src='${sneaker.image.small}' alt='${sneaker.name}' />`
+        );
+
+        // add error event to image
+        $img.on("error", (event) => {
+          $img.attr("src", "img/orange.jpg");
+        });
+
+        // `<img src='{$img}'
+        // onerror="this.remove()"/>`; trynig to get this to work
+
+        $("div.footer").append($h1, $img);
       });
 
       // render(data.results)
@@ -49,4 +61,17 @@ const hello = () => {
   );
 };
 
-$("button").click(hello);
+// $("button").click(hello);
+
+// grab text from input
+const numInput = $("input[type='number']").val();
+
+$("form").on("submit", (numInput) => {
+  // grab text from input
+
+  // prevent the refresh
+  numInput.preventDefault();
+
+  // update the screen
+  hello(numInput);
+});

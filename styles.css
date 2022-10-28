@@ -1,37 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
 .container {
-    display: grid;
-    grid-template: auto 1fr auto / auto 1fr auto;
-    height: 100vh;
-  }
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+  height: 100vh;
+}
+
+img {
+  width: 25%;
+  height: auto;
   
+}
 
 
 header {
-    padding: 2rem;
-    grid-column: 1/4;
-    background-color: blue;
+  /* padding: 2rem; */
+  grid-column: 1/4;
+  background-color: white;
 }
 
 .one {
-    grid-column: 1 / 2;
-    background-color:green;
-  }
-  
-  .two {
-    grid-column: 2 / 3;
-    background-color: blueviolet;
-  }
-  
-  .three {
-    grid-column: 3 / 4;
-    background-color: beige;
-  }
-  
-  .footer {
-    grid-column: 1 / 4;
-    background-color: burlywood;
-    
+  grid-column: 1 / 2;
+  background-color:white;
+  padding: 1rem;
+}
 
-  }
+.two {
+  grid-column: 2 / 3;
+  background-color: white;
+  text-align: center;
+}
+
+.three {
+  grid-column: 3 / 4;
+  background-color: white;
+  padding: 1rem;
+}
+
+.footer {
+  grid-column: 1 / 4;
+  padding: 1rem;
+  background-color: burlywood;
+
+}
+
+.bar {
+  padding: 1rem;
+  background-color: burlywood;
+
+}
+
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.poppin {
+  font-family: 'Luckiest Guy';
+  font-size: 35px;
+
+}
+
+.updates {
+  font-family: 'Luckiest Guy';
+}
+
+input[type=submit] {
+
+   background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+input[type=number] {
+
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+  transition-duration: 0.4s;
+
+}
 
 /*  how to get footer to the bottom of the page
