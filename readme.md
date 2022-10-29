@@ -1,16 +1,16 @@
-## Sneakerhead.io Project
+## Sneakerhead Project
 
 All the **#Sneakerheads** out there, will feel me on this...
 
 We try to stay fresh on the daily, and keep up with the latest drops, but that's not always possible and it's too time consuming...what if there was a way you could stay current on the lastest sneaker drops that only required a few minutes per week?
 
-(cue Sneakerhead.io)
+(cue Sneakerhead)
 
-I created Sneakerhead.io to be a simple application that enables you to type in your favorite sneaker brands and see their latest releases.
+I created Sneakerhead to be a simple application that enables you to type in your favorite sneaker brands and see their latest releases.
 
 Voila!
 
-No need to constantly stalk their websites or newsletters for their latest drops. You can check on the daily, by doing a quick search on Sneakerhead.io.
+No need to constantly stalk their websites or newsletters for their latest drops. You can check on the daily, by doing a quick search on the Sneakerhead app.
 
 ### Tech Used
 
