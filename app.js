@@ -104,3 +104,11 @@ $("form").on("submit", (numInput) => {
   // update the screen
   hello(numInput);
 });
+
+// There wasn't a lot of documentaition for my API, so it was tough because I think it relied on a lot of assumed knowledge
+// so I worked with the GA team to get the API connected (David + Alex)
+// the way the API works, is you have to put in a number, and it will return that amount of sneakers.
+//There's a default image, if the sneaker image provided by the API doesn't work
+// so the API is a sneaker database with images and links to resell sites
+// Lessons learned, I to understand better where to put code, because some errors occured because of code placement
+//I got comfortable with committing to git
