@@ -37,4 +37,4 @@ Overview of how I approached building this application.
 
 ### Link to Project
 
-[My Project Live Page](https://vercel.com/aliciaglenn/sneakerheadproject)
+[My Project Live Page](https://sneakerhead-plum.vercel.app/)
